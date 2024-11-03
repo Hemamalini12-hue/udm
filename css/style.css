@@ -1,0 +1,136 @@
+*{
+    padding: 0px;
+    margin: 0px;
+font-family: "Gabarito", sans-serif;
+}
+.navigationbar{
+    display: flex;
+    margin: 10px;
+    /* justify-content: center; */
+     border-bottom: solid 1px gray; 
+    align-items: center;
+    flex-wrap: nowrap;
+    
+}
+
+.heading1__style{
+    color: #A435F0;
+    margin: 10px;
+}
+.endsection__style{
+    display: flex;
+    gap:30px;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+
+}
+.centersection__style{
+    border: solid black 1px;
+    width:60%;
+    border-radius: 20px;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    margin: 10px;
+    
+
+}
+.centersection__style input{
+    border: none;
+    font-size: 16px;
+}
+.centersection__style input:focus{
+    outline:none;
+}
+.sales__style{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: solid 1px;
+    padding-bottom: 10px;
+}
+.sale__image{
+    width:100%;
+}
+.sales__style p{
+    background-color: #A435F0;
+    border-radius: 40px;
+    padding: 10px;
+    color: white;
+
+}
+.Recommendedsection__style{
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.Recommendedimage__style{
+     width:300px;
+     margin: 10px; 
+     /* justify-content:; */
+
+    
+   
+}
+.Recommendedimage__style img{
+    width:100%;
+    /* margin: 10px; */
+    height: 200px;
+}
+.topic__container p{
+    border: gray solid 1px;
+     flex-grow: 1;
+    flex-basis: 24%; 
+        padding: 10px;
+    margin-top: 20px;
+    /* justify-content: space-around; */
+}
+.topic__container{
+     display: flex;
+     flex-wrap: wrap;
+     gap: 50px;
+     margin-top: 10px;
+     flex-wrap: wrap;
+}
+.topic__title{
+    margin: 10px;
+    padding: 10px;
+}
+.popular{
+    margin: 10px;
+    padding: 10px;
+}
+ .footer__container{
+    
+    display: flex;
+} 
+.footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin-left: 10px;
+    
+}
+.title{
+    margin: 20px;
+}
+.footer1{
+    /* display: flex; */
+}
+.footerbase{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__container p{
+    margin: 40px;
+
+}
+
+.footerbase{
+    justify-content: space-between;
+    margin: 20px;
+    align-items: center;
+    display: flex;
+}
+
